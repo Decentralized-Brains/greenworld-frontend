@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 // import { HashLink } from "react-router-hash-link";
 
@@ -37,6 +38,11 @@ const Navbar = () => {
       text: "Team",
       url: "/#",
     },
+    {
+      id: 6,
+      text: "Dashboard",
+      url: "/dashboard",
+    },
   ];
 
   useEffect(() => {
@@ -63,11 +69,11 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           <ul className="hidden md:flex md:gap-x-3 lg:gap-x-12 mt-5">
             {NavLinks.map((data) => (
-              <a href={data.url} key={data.id}>
+              <Link to={data.url} key={data.id}>
                 <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b border-gray-700 hover:text-green-600 duration-300">
                   {data.text}
                 </li>
-              </a>
+              </Link>
             ))}
           </ul>
           <button className="mr-4 md:mr-0 md:ml-12">Login</button>
@@ -113,11 +119,11 @@ const Navbar = () => {
           <div className="h-[70%] py-4 flex flex-col justify-between">
             <ul>
               {NavLinks.map((data) => (
-                <a href={data.url} key={data.id}>
+                <Link to={data.url} key={data.id}>
                   <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
                     {data.text}
                   </li>
-                </a>
+                </Link>
               ))}
             </ul>
           </div>
