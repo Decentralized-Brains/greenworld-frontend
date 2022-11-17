@@ -1,12 +1,12 @@
-import AafterTeam from "../components/AafterTeam";
-import About from "../components/About";
-import CardOneSection from "../components/CardOneSection";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Partners from "../components/Partners";
-import Roadmap from "../components/Roadmap";
-import Teams from "../components/Teams";
-import CardSectionTwo from "../components/CardSectionTwo";
+import AafterTeam from "../components/home/AafterTeam";
+import About from "../components/home/About";
+import CardOneSection from "../components/home/CardOneSection";
+import Footer from "../components/home/Footer";
+import Hero from "../components/home/Hero";
+import Partners from "../components/home/Partners";
+import Roadmap from "../components/home/Roadmap";
+import Teams from "../components/home/Teams";
+import CardSectionTwo from "../components/home/CardSectionTwo";
 
 const Home = () => {
   return (

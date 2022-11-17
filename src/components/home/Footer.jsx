@@ -26,9 +26,9 @@ export default function Footer() {
           <div className="flex flex-col gap-3 lg:ml-0">
             {navigation.map((item, index) => (
               <a key={index} href="/">
-                <a className="w-full pr-4 py-2 text-gray-400 rounded-md dark:text-gray-300 hover:text-green-600 focus:outline-none dark:focus:bg-trueGray-400">
+                <p className="w-full pr-4 py-2 text-gray-400 rounded-md dark:text-gray-300 hover:text-green-600 focus:outline-none dark:focus:bg-trueGray-400">
                   {item}
-                </a>
+                </p>
               </a>
             ))}
           </div>

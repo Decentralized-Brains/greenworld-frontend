@@ -1,4 +1,4 @@
-import World from "../img/world.png";
+import World from "../../img/world.png";
 
 const AafterTeam = () => {
   return (

@@ -1,14 +1,14 @@
-import P1 from "../img/partner/1.png";
-import P2 from "../img/partner/2.png";
-import P3 from "../img/partner/3.png";
-import P4 from "../img/partner/4.png";
-import C1 from "../img/c1.png";
-import C2 from "../img/c2.png";
-import C3 from "../img/c3.png";
-import T1 from "../img/team/1.png";
-import T2 from "../img/team/2.png";
-import T3 from "../img/team/3.png";
-import T4 from "../img/team/4.png";
+import P1 from "../../img/partner/1.png";
+import P2 from "../../img/partner/2.png";
+import P3 from "../../img/partner/3.png";
+import P4 from "../../img/partner/4.png";
+import C1 from "../../img/c1.png";
+import C2 from "../../img/c2.png";
+import C3 from "../../img/c3.png";
+import T1 from "../../img/team/1.png";
+import T2 from "../../img/team/2.png";
+import T3 from "../../img/team/3.png";
+import T4 from "../../img/team/4.png";
 
 export const PartnersData = [
   {

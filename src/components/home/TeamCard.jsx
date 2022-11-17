@@ -1,5 +1,5 @@
 import React from "react";
-import BG from "../img/BG.svg";
+import BG from "../../img/BG.svg";
 
 const TeamCard = ({ data }) => {
   const { img, name, title } = data;

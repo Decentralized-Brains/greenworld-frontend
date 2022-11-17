@@ -1,18 +1,12 @@
 import React from "react";
 import RoadmapCard from "./RoadmapCard";
 import { motion } from "framer-motion";
-const PopUp = {
-  offscreen: { scale: 0.3 },
-  onscreen: {
-    scale: 1,
-    transition: { type: "spring", bounce: 0.4, duration: 1.2 },
-  },
-};
 
 const FromDown = {
-  offscreen: { y: 150 },
+  offscreen: { y: 150, opacity: 0 },
   onscreen: {
     y: 0,
+    opacity: 1,
     transition: { type: "spring", bounce: 0.4, duration: 1.2 },
   },
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
-import Tree from "../img/tree.png";
+import "../../App.css";
+import Tree from "../../img/tree.png";
 
 const Hero = () => {
   return (

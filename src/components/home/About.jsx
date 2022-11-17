@@ -1,5 +1,5 @@
-import Tree from "../img/tree1.png";
-import "../App.css";
+import Tree from "../../img/tree1.png";
+import "../../App.css";
 
 const About = () => {
   return (
