@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+:root {
+  --color1: #c8fff1;
+  --color2: #f1fff6;
+}
+.bgimage {
+  background: url("./img/cloud.png") center no-repeat fixed;
+  background-size: cover;
+  background-position-x: 100%;
+  animation: moving 40s linear infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes moving {
+  0% {
+    background-position-x: 0%;
+    background-color: var(--color1);
+  }
+  5% {
+    background-color: var(--color2);
+  }
+  10% {
+    background-color: var(--color1);
+  }
+  20% {
+    background-color: var(--color2);
+  }
+  30% {
+    background-color: var(--color1);
+  }
+  40% {
+    background-color: var(--color2);
+  }
+  50% {
+    background-color: var(--color1);
+  }
+  60% {
+    background-color: var(--color2);
+  }
+  70% {
+    background-color: var(--color1);
+  }
+  80% {
+    background-color: var(--color2);
+  }
+  90% {
+    background-color: var(--color1);
+  }
+  100% {
+    background-position-x: 100%;
+    background-color: var(--color2);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.treeBG {
+  background: url("./img/treebg.png") center no-repeat;
+  background-size: contain;
 }
