@@ -4,7 +4,7 @@ import Heroimg from "../images/sustainability-dark-bg.png"
 function Hero() {
     return (
         <div className='max-w-[1640px] mx-auto '>
-            <div className='relative bg-gradient-to-r from-[#274cd4] to-[#0ef2e3]'>
+            <div className='relative bg-gradient-to-r from-[#425bb7] to-[#0FC7BC]'>
                 <img className='w-[100%] h-[460px] object-cover bg-gradient-to-t red' src={Heroimg} alt="" />
                 <div className='absolute top-40 text-center w-[100%]'>
                     <h1 className='text-[50px] mb-7 text-white font-poppins'>Partnerships</h1>
