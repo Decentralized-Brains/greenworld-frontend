@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div className="container">
       <div className="h-[120px]"></div>
       <div className="grid gap-6 md:grid-cols-2">
-        <div className="bg-green-500/20 min-w-[360px] max-w-[700px] rounded-xl flex flex-col items-center">
+        <div className="bg-green-500/20  min-w-[360px] max-w-[700px] rounded-xl flex flex-col items-center">
           <img
             className="w-[100px] -mt-10  border-4 border-green-500 ring-8 ring-white rounded-full"
             src={Person}
@@ -40,12 +40,18 @@ const Dashboard = () => {
         </div>
         <div className="bg-green-500/20 min-w-[360px] max-w-[700px] rounded-xl flex flex-col p-6">
           <p>1. Lorem ipsum dolor sit amet.</p>
-          <input type="text" className="p-2 focus:outline-none min-w-[300px]" />
+          <input
+            type="text"
+            className="p-2 rounded-md focus:outline-none min-w-[300px]"
+          />
           <br />
           <p>2. Lorem ipsum dolor sit amet.</p>
-          <input type="text" className="p-2 focus:outline-none min-w-[300px]" />
+          <input
+            type="text"
+            className="p-2 rounded-md focus:outline-none min-w-[300px]"
+          />
           <div className="flex gap-4 py-6">
-            <input type="checkbox" checked={true} />
+            <input type="checkbox" />
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div className="flex gap-4">
@@ -58,7 +64,7 @@ const Dashboard = () => {
       </div>
       <br />
       <br />
-      <div className="bg-green-500/20 rounded-xl p-10">
+      <div className="bg-green-500/20 max-w-[600px] mx-auto rounded-xl p-10">
         <table className="w-full min-w-[360px] ">
           <thead className="">
             <tr className="border-b">

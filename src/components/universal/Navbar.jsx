@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // import { HashLink } from "react-router-hash-link";
 
@@ -20,23 +20,23 @@ const Navbar = () => {
     },
     {
       id: 2,
-      text: "About",
-      url: "/#",
+      text: "Token",
+      url: "/token",
     },
     {
       id: 3,
       text: "Partner",
-      url: "/#",
+      url: "/partner",
     },
     {
       id: 4,
       text: "Blog",
-      url: "/#",
+      url: "/blog",
     },
     {
       id: 5,
       text: "Team",
-      url: "/#",
+      url: "/team",
     },
     {
       id: 6,
@@ -69,14 +69,16 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           <ul className="hidden md:flex md:gap-x-3 lg:gap-x-12 mt-5">
             {NavLinks.map((data) => (
-              <Link to={data.url} key={data.id}>
-                <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b border-gray-700 hover:text-green-600 duration-300">
+              <NavLink to={data.url} key={data.id}>
+                <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">
                   {data.text}
                 </li>
-              </Link>
+              </NavLink>
             ))}
           </ul>
-          <button className="mr-4 md:mr-0 md:ml-12">Login</button>
+          <Link to="/signin">
+            <button className="mr-4 md:mr-0 md:ml-12">Login</button>
+          </Link>
           <div
             onClick={handleNav}
             className="md:hidden text-black dark:text-white cursor-pointer"

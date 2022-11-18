@@ -49,8 +49,17 @@
     background-color: var(--color2);
   }
 }
-
+.active {
+  color: green !important;
+  font-weight: 600;
+}
 .treeBG {
   background: url("./img/treebg.png") center no-repeat;
   background-size: contain;
+}
+.buttonColor {
+  background: white;
+}
+.buttonColor:hover {
+  background: rgb(225, 240, 225);
 }
