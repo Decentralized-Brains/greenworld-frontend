@@ -1,12 +1,12 @@
 :root {
-  --color1: #c8fff1;
-  --color2: #f1fff6;
+  --color1: #a0c096;
+  --color2: #e1ffea;
 }
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
   background-size: cover;
   background-position-x: 100%;
-  animation: moving 40s linear infinite;
+  animation: moving 30s linear infinite;
 }
 
 @keyframes moving {
@@ -14,22 +14,10 @@
     background-position-x: 0%;
     background-color: var(--color1);
   }
-  5% {
-    background-color: var(--color2);
-  }
-  10% {
-    background-color: var(--color1);
-  }
   20% {
     background-color: var(--color2);
   }
   30% {
-    background-color: var(--color1);
-  }
-  40% {
-    background-color: var(--color2);
-  }
-  50% {
     background-color: var(--color1);
   }
   60% {
