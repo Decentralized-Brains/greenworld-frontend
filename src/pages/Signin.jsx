@@ -12,8 +12,8 @@ const Signin = () => {
     setOpen(!open);
   };
   return (
-    <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-      <div className="relative bg-[#F4FEF7] px-6 pt-10 pb-8 shadow-lg ring-1 ring-gray-900/5 sm:mx-auto md:max-w-6xl sm:rounded-lg sm:px-10">
+    <div className="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+      <div className="relative bg-[#F4FEF7] px-6 pt-10 pb-8 shadow-lg ring-1 ring-gray-900/5 sm:mx-auto md:max-w-6xl sm:rounded-lg sm:px-10 mt-16">
         <div className="flex flex-row justify-center md:justify-between gap-x-0 md:gap-x-20">
           <div>
             <img

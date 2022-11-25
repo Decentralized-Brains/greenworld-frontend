@@ -2,8 +2,8 @@ import React from "react";
 
 const ForgetPassword = () => {
   return (
-    <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-      <div className="relative bg-[#F4FEF7] px-6 pt-10 pb-8 shadow-lg ring-1 ring-gray-900/5 sm:mx-auto md:max-w-lg sm:rounded-lg sm:px-10">
+    <div className="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
+      <div className="relative bg-[#F4FEF7] px-6 pt-10 pb-8 shadow-lg ring-1 ring-gray-900/5 sm:mx-auto md:max-w-lg sm:rounded-lg sm:px-10 mt-16">
         <div className="flex flex-col py-16 px-10 sm:px-16">
           <div className="min-w-[500px]"></div>
           <div className="flex flex-col font-popins">
