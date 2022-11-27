@@ -3,24 +3,31 @@ import COIN from "../img/others/coin-g.png";
 import roundimg1 from "../img/others/r1.png";
 import roundimg2 from "../img/others/r2.png";
 import roundimg3 from "../img/others/r3.png";
+import "./token.css";
 
 const Token = () => {
   return (
     <div>
       <section id="hero">
-        <div className="relative bg-gradient-to-r from-[#274cd4] to-[#0ef2e3]">
-          <img
-            className="w-[100%] h-[460px] object-cover bg-gradient-to-t red"
+        <div className="bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative">
+          <div className="tokenbg hidden md:flex"></div>
+          <div className="flex md:hidden">
+            <img
+              src={BG}
+              className="w-full h-[460px] object-cover absolute mix-blend-overlay"
+              alt="background"
+            />{" "}
+          </div>
+
+          {/* <img
             src={BG}
-            alt=""
-          />
-          <div className="absolute top-40 text-center w-[100%]">
-            <h1 className="text-[40px] md:text-[50px] mb-7 text-white font-poppins">
+            className="w-full h-[460px] object-cover absolute mix-blend-overlay"
+            alt="background"
+          /> */}
+          <div class="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
+            <div className="text-white text-4xl md:text-6xl font-semibold font-popins">
               Carbon X Crypto
-            </h1>
-            <button className="font-base mx-auto text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#20972A] to-[#0CCC6F]">
-              Buy Token
-            </button>
+            </div>
           </div>
         </div>
       </section>
@@ -55,7 +62,7 @@ const Token = () => {
               <div className="grid  w-full place-content-center ">
                 <div
                   className="flex h-[300px] md:h-[400px] min-w-[300px]  md:min-w-[150px] md:max-w-[180px] 
-                flex-col justify-center md:justify-between rounded-xl md:rounded-full  p-4 shadow-lg 
+                flex-col justify-around rounded-xl md:rounded-full  p-4 shadow-lg 
                 items-center border-[1px] "
                 >
                   <p className="mt-0 md:mt-6 text-center text-base pb-8 md:pb-0">
@@ -74,9 +81,9 @@ const Token = () => {
               </div>
               <div className="grid  w-full place-content-center">
                 <div
-                  className="flex h-[300px] md:h-[500px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
-                flex-col rounded-xl md:rounded-full  p-4 shadow-lg items-center border-[1px]
-                 "
+                  className="flex-col-reverse flex h-[300px] md:h-[500px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
+                md:flex-col rounded-xl md:rounded-full  p-4 shadow-lg items-center border-[1px]
+                justify-around "
                 >
                   <div class=" w-[150px]  md:w-[150px] p-4">
                     <img
@@ -96,7 +103,7 @@ const Token = () => {
               <div className="grid  w-full place-content-center">
                 <div
                   className="flex h-[300px] md:h-[400px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
-                flex-col justify-center md:justify-between rounded-xl md:rounded-full  p-4 shadow-lg 
+                flex-col justify-around rounded-xl md:rounded-full  p-4 shadow-lg 
                 items-center border-[1px] "
                 >
                   <p className="mt-0 md:mt-6 text-center text-base pb-8 md:pb-0">
