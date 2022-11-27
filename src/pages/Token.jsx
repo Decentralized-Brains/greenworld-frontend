@@ -62,7 +62,7 @@ const Token = () => {
               <div className="grid  w-full place-content-center ">
                 <div
                   className="flex h-[300px] md:h-[400px] min-w-[300px]  md:min-w-[150px] md:max-w-[180px] 
-                flex-col justify-center md:justify-between rounded-xl md:rounded-full  p-4 shadow-lg 
+                flex-col justify-around rounded-xl md:rounded-full  p-4 shadow-lg 
                 items-center border-[1px] "
                 >
                   <p className="mt-0 md:mt-6 text-center text-base pb-8 md:pb-0">
@@ -81,9 +81,9 @@ const Token = () => {
               </div>
               <div className="grid  w-full place-content-center">
                 <div
-                  className="flex h-[300px] md:h-[500px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
-                flex-col rounded-xl md:rounded-full  p-4 shadow-lg items-center border-[1px]
-                 "
+                  className="flex-col-reverse flex h-[300px] md:h-[500px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
+                md:flex-col rounded-xl md:rounded-full  p-4 shadow-lg items-center border-[1px]
+                justify-around "
                 >
                   <div class=" w-[150px]  md:w-[150px] p-4">
                     <img
@@ -103,7 +103,7 @@ const Token = () => {
               <div className="grid  w-full place-content-center">
                 <div
                   className="flex h-[300px] md:h-[400px] min-w-[300px] md:min-w-[150px] md:max-w-[180px] 
-                flex-col justify-center md:justify-between rounded-xl md:rounded-full  p-4 shadow-lg 
+                flex-col justify-around rounded-xl md:rounded-full  p-4 shadow-lg 
                 items-center border-[1px] "
                 >
                   <p className="mt-0 md:mt-6 text-center text-base pb-8 md:pb-0">
