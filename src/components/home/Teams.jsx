@@ -4,7 +4,7 @@ import { TeamsData } from "./Data";
 
 const Teams = () => {
   return (
-    <div className="container text-center mb-10">
+    <div className="container text-center mb-10" id="team">
       <h3 className="text-3xl">
         Our<span className="p-text">Team</span>
       </h3>

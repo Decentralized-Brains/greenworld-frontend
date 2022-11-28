@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 // import { HashLink } from "react-router-hash-link";
 
@@ -27,21 +28,6 @@ const Navbar = () => {
       id: 3,
       text: "Partner",
       url: "/partner",
-    },
-    {
-      id: 4,
-      text: "Blog",
-      url: "/blog",
-    },
-    {
-      id: 5,
-      text: "Team",
-      url: "/team",
-    },
-    {
-      id: 6,
-      text: "Dashboard",
-      url: "/dashboard",
     },
   ];
 
@@ -75,9 +61,19 @@ const Navbar = () => {
                 </li>
               </NavLink>
             ))}
+            <li>
+              <NavHashLink smooth activeClassName="selectedId" to="/#blog">
+                Blog
+              </NavHashLink>
+            </li>
+            <li>
+              <NavHashLink smooth activeClassName="selectedId" to="/#team">
+                Team
+              </NavHashLink>
+            </li>
           </ul>
-          <Link to="/signin">
-            <button className="mr-4 md:mr-0 md:ml-12">Login</button>
+          <Link to="/dashboard">
+            <button className="mr-4 md:mr-0 md:ml-12">Offset</button>
           </Link>
           <div
             onClick={handleNav}
@@ -127,6 +123,17 @@ const Navbar = () => {
                   </li>
                 </Link>
               ))}
+              <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
+                <NavHashLink smooth activeClassName="selectedId" to="/#blog">
+                  Blog
+                </NavHashLink>
+              </li>
+
+              <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
+                <NavHashLink smooth activeClassName="selectedId" to="/#team">
+                  Team
+                </NavHashLink>
+              </li>
             </ul>
           </div>
         </div>

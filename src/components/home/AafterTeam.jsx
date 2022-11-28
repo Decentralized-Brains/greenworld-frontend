@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import World from "../../img/world.png";
 
 const AafterTeam = () => {
@@ -15,6 +16,10 @@ const AafterTeam = () => {
           numquam ea? Necessitatibus eum sequi, id nobis natus incidunt neque
           repellat quidem?
         </p>
+        <br />
+        <Link to="token">
+          <button>Token</button>
+        </Link>
       </div>
       <img className="max-w-[300px]" src={World} alt="" />
     </div>

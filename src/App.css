@@ -1,6 +1,6 @@
 :root {
-  --color1: #a0c096;
-  --color2: #e1ffea;
+  --color1: #00c1ff;
+  --color2: #ecfbff;
 }
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
@@ -14,22 +14,10 @@
     background-position-x: 0%;
     background-color: var(--color1);
   }
-  20% {
-    background-color: var(--color2);
-  }
   30% {
-    background-color: var(--color1);
-  }
-  60% {
     background-color: var(--color2);
   }
   70% {
-    background-color: var(--color1);
-  }
-  80% {
-    background-color: var(--color2);
-  }
-  90% {
     background-color: var(--color1);
   }
   100% {
@@ -39,7 +27,9 @@
 }
 .active {
   color: green !important;
-  font-weight: 600;
+}
+.selectedId {
+  color: red !important;
 }
 .treeBG {
   background: url("./img/treebg.png") center no-repeat;

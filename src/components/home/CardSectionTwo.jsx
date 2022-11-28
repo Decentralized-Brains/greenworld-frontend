@@ -3,7 +3,7 @@ import { Card2Data } from "./Data";
 
 const CardSectionTwo = () => {
   return (
-    <div className="bg-green-100/50">
+    <div className="bg-[#aee8ff] mb-[-80px]" id="blog">
       <div className="container text-center py-12">
         <h3 className="text-3xl">
           Ipsum <span className="p-text">Partners</span> dolor sit amet.
