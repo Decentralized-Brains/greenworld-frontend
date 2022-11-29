@@ -4,33 +4,24 @@
 }
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
+  background-color: #58d5ff;
   background-size: cover;
   background-position-x: 100%;
-  animation: moving 30s linear infinite;
+  animation: moving 40s linear infinite;
 }
 
 @keyframes moving {
   0% {
     background-position-x: 0%;
-    background-color: var(--color1);
-  }
-  30% {
-    background-color: var(--color2);
-  }
-  70% {
-    background-color: var(--color1);
   }
   100% {
     background-position-x: 100%;
-    background-color: var(--color2);
   }
 }
-.active {
+/* .active {
   color: green !important;
-}
-.selectedId {
-  color: red !important;
-}
+} */
+
 .treeBG {
   background: url("./img/treebg.png") center no-repeat;
   background-size: contain;

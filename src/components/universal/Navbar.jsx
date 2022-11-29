@@ -62,17 +62,17 @@ const Navbar = () => {
               </NavLink>
             ))}
             <li>
-              <NavHashLink smooth activeClassName="selectedId" to="/#blog">
+              <NavHashLink smooth to="/#blog">
                 Blog
               </NavHashLink>
             </li>
             <li>
-              <NavHashLink smooth activeClassName="selectedId" to="/#team">
+              <NavHashLink smooth to="/#team">
                 Team
               </NavHashLink>
             </li>
           </ul>
-          <Link to="/dashboard">
+          <Link to="/signin">
             <button className="mr-4 md:mr-0 md:ml-12">Offset</button>
           </Link>
           <div
@@ -124,13 +124,13 @@ const Navbar = () => {
                 </Link>
               ))}
               <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
-                <NavHashLink smooth activeClassName="selectedId" to="/#blog">
+                <NavHashLink smooth to="/#blog">
                   Blog
                 </NavHashLink>
               </li>
 
               <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
-                <NavHashLink smooth activeClassName="selectedId" to="/#team">
+                <NavHashLink smooth to="/#team">
                   Team
                 </NavHashLink>
               </li>
