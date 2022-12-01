@@ -1,6 +1,15 @@
 import Heroimg from "../img/others/tree-bg.png";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 const Partnership = () => {
+  // bring to top
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className="mx-auto ">
       <div className="relative bg-gradient-to-r from-[#274cd4] to-[#0ef2e3]">

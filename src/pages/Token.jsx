@@ -5,7 +5,16 @@ import roundimg2 from "../img/others/r2.png";
 import roundimg3 from "../img/others/r3.png";
 import "./token.css";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 const Token = () => {
+  // bring to top
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div>
       <section id="hero">

@@ -1,13 +1,13 @@
 :root {
-  --color1: #00c1ff;
+  --color1: #7ccbff;
   --color2: #ecfbff;
 }
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
-  background-color: #58d5ff;
+  background-color: #7ccbff;
   background-size: cover;
   background-position-x: 100%;
-  animation: moving 40s linear infinite;
+  animation: moving 35s linear infinite;
 }
 
 @keyframes moving {
@@ -16,6 +16,11 @@
   }
   100% {
     background-position-x: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .bgimage {
+    background-position-y: -200px;
   }
 }
 /* .active {

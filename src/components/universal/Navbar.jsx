@@ -52,7 +52,7 @@ const Navbar = () => {
         >
           {/* <img src={logo} className="w-[150px] " alt="" /> */}
         </a>
-        <div className="flex items-center justify-center">
+        <div className="w-full flex items-center justify-between md:justify-end">
           <ul className="hidden md:flex md:gap-x-3 lg:gap-x-12 mt-5">
             {NavLinks.map((data) => (
               <NavLink to={data.url} key={data.id}>
@@ -63,12 +63,16 @@ const Navbar = () => {
             ))}
             <li>
               <NavHashLink smooth to="/#blog">
-                Blog
+                <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">
+                  Blog
+                </li>
               </NavHashLink>
             </li>
             <li>
               <NavHashLink smooth to="/#team">
-                Team
+                <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">
+                  Team
+                </li>
               </NavHashLink>
             </li>
           </ul>
