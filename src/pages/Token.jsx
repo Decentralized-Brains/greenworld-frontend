@@ -1,4 +1,3 @@
-import BG from "../img/others/tree-bg.png";
 import COIN from "../img/others/coin-g.png";
 import roundimg1 from "../img/others/r1.png";
 import roundimg2 from "../img/others/r2.png";
@@ -9,40 +8,27 @@ const Token = () => {
   return (
     <div>
       <section id="hero">
-        <div className="relative bg-gradient-to-r from-[#274cd4] to-[#0ef2e3]">
-          <img
-            className="w-[100%] h-[460px] object-cover bg-gradient-to-t red"
-            src={BG}
-            alt=""
-          />
-          <div className="absolute top-52 text-center w-[100%]">
-            <h1 className="text-[45px] sm:text-[50px] text-white font-poppins">
-              Carbon X Crypto
-            </h1>
-          </div>
-        </div>
-
-        {/* <div className="bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative">
-          <div className="tokenbg hidden md:flex"></div>
-          <div className="flex md:hidden">
+        <div className="bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative">
+          <div className="tokenbg "></div>
+          {/* <div className="flex md:hidden">
             <img
               src={BG}
               className="w-full h-[460px] object-cover absolute mix-blend-overlay"
               alt="background"
             />{" "}
           </div> */}
-
-        {/* <img
+          {/* <img
             src={BG}
             className="w-full h-[460px] object-cover absolute mix-blend-overlay"
             alt="background"
           /> */}
-        {/* <div class="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
-            <div className="text-white text-4xl md:text-6xl font-semibold font-popins">
+
+          <div class="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
+            <h1 className="text-[40px] sm:text-[50px] mb-7 text-white font-poppins">
               Carbon X Crypto
-            </div>
+            </h1>
           </div>
-        </div> */}
+        </div>{" "}
       </section>
       <section id="about" className="mx-3 md:mx-0">
         <div className="flex flex-col md:flex-row md:justify-around gap-4 pt-20">
