@@ -17,7 +17,7 @@ const Token = () => {
   return (
     <div>
       <section id="hero">
-        <div className="bg-gradient-to-b from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center relative">
+        <div className="bg-gradient-to-b  from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center mix-blend-overlay relative">
           <div className="tokenbg "></div>
           {/* <div className="flex md:hidden">
             <img
