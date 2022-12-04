@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 const Partnership = () => {
   // bring to top
   const { pathname } = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -13,10 +14,6 @@ const Partnership = () => {
     <div className="mx-auto ">
       <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
         <div className="tokenbg"></div>
-        <img
-          className="w-[100%] h-[460px] object-cover mix-blend-overlay"
-          alt="bg"
-        />
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">
             Partnerships
