@@ -2,6 +2,7 @@ import COIN from "../img/others/coin-g.png";
 import roundimg1 from "../img/others/r1.png";
 import roundimg2 from "../img/others/r2.png";
 import roundimg3 from "../img/others/r3.png";
+import BG from "../img/others/tree-bg.png";
 import "./token.css";
 
 import { useEffect } from "react";
@@ -19,20 +20,20 @@ const Token = () => {
       <section id="hero">
         <div className="bg-gradient-to-b  from-cyan-500 to-blue-800 h-[460px] w-full bg-cover bg-center mix-blend-overlay relative">
           <div className="tokenbg "></div>
-          {/* <div className="flex md:hidden">
+          <div className="flex md:hidden">
             <img
               src={BG}
               className="w-full h-[460px] object-cover absolute mix-blend-overlay"
               alt="background"
             />{" "}
-          </div> */}
+          </div>
           {/* <img
             src={BG}
             className="w-full h-[460px] object-cover absolute mix-blend-overlay"
             alt="background"
           /> */}
 
-          <div class="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
+          <div className="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
             <h1 className="text-[40px] sm:text-[50px] mb-7 text-white font-poppins">
               Carbon X Crypto
             </h1>
