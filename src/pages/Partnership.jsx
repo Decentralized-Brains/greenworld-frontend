@@ -1,5 +1,4 @@
-import Heroimg from "../img/others/tree-bg.png";
-import "./token.css"
+import "./token.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -16,6 +15,7 @@ const Partnership = () => {
         <div className="tokenbg"></div>
         <img
           className="w-[100%] h-[460px] object-cover mix-blend-overlay"
+          alt="image"
         />
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">

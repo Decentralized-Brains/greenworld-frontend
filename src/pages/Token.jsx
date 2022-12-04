@@ -58,10 +58,10 @@ const Token = () => {
               className="flex flex-col gap-y-6 
           pt-8"
             >
-              <button className="text-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#20972A] to-[#0FC766]">
+              <button className="flex justify-center  text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#20972A] to-[#0FC766]">
                 Lite Paper
               </button>
-              <button className="text-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#40559E] to-[#0FC7BC]">
+              <button className="flex justify-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#40559E] to-[#0FC7BC]">
                 FAQs
               </button>
             </div>
