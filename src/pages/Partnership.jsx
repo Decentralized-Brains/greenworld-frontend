@@ -15,7 +15,7 @@ const Partnership = () => {
         <div className="tokenbg"></div>
         <img
           className="w-[100%] h-[460px] object-cover mix-blend-overlay"
-          alt="image"
+          alt="460x photo"
         />
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">
