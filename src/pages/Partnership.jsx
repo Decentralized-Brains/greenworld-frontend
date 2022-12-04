@@ -1,5 +1,5 @@
 import Heroimg from "../img/others/tree-bg.png";
-
+import "./token.css"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -12,11 +12,10 @@ const Partnership = () => {
 
   return (
     <div className="mx-auto ">
-      <div className="relative bg-gradient-to-r from-[#274cd4] to-[#0ef2e3]">
+      <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
+        <div className="tokenbg"></div>
         <img
-          className="w-[100%] h-[460px] object-cover bg-gradient-to-t red"
-          src={Heroimg}
-          alt=""
+          className="w-[100%] h-[460px] object-cover mix-blend-overlay"
         />
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">
@@ -33,7 +32,7 @@ const Partnership = () => {
           <h1 className=" md:text-[38px] mb-8 text-[40px] font-semibol max-sm:text-[36px]">
             Lorem Ipsum <span className="text-[#0DCB6B]">Dolor sit</span>
           </h1>
-          <h2 className="text-md max-sm:text-[16px]">
+          <h2 className="text-lg font-thin max-sm:text-[16px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quo
             officiis eum rem, voluptatum minus. Voluptas aut recusandae ea natus
             corporis excepturi ipsam.
