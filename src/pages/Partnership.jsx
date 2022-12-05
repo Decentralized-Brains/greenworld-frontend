@@ -1,6 +1,7 @@
 import "./token.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import BG from "../img/others/tree-bg.png";
 
 const Partnership = () => {
   // bring to top
@@ -14,16 +15,22 @@ const Partnership = () => {
     <div className="mx-auto ">
       <div className="relative h-[460px] w-full bg-gradient-to-b from-cyan-500 to-blue-800 bg-cover  bg-center">
         <div className="tokenbg"></div>
+        <div className="flex md:hidden">
+          <img
+            src={BG}
+            className="w-full h-[460px] object-cover absolute mix-blend-overlay"
+            alt="background"
+          />{" "}
+        </div>
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">
             Partnerships
           </h1>
-          <button className="font-light mx-auto text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#20972A] to-[#0CCC6F]">
+          <button className="font-normal mx-auto text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#20972A] to-[#0CCC6F]">
             Become a Partner
           </button>
         </div>
       </div>
-
       <div className="w-[100%]">
         <div className="text-center py-44 mx-auto w-2/4 max-sm:w-3/4">
           <h1 className=" md:text-[38px] mb-8 text-[40px] font-semibol max-sm:text-[36px]">
@@ -34,11 +41,14 @@ const Partnership = () => {
             officiis eum rem, voluptatum minus. Voluptas aut recusandae ea natus
             corporis excepturi ipsam.
           </h2>
-          <div className="pt-12 max-md:flex-col gap-8 flex justify-center max-sm:flex-col max-sm:p-2">
-            <button className="rounded-full px-14 py-2 bg-gradient-to-r from-[#40559E] to-[#0FC7BC] text-white text-light md:py-2 md:px-8  ">
+          <div
+            className="flex flex-col md:flex-row justify-center items-center gap-y-6 gap-x-5
+          pt-8"
+          >
+            <button className="flex justify-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[220px] bg-gradient-to-r from-[#40559E] to-[#0FC7BC]">
               Learn More
             </button>
-            <button className="rounded-full px-10 py-2 bg-gradient-to-r from-[#20972A] to-[#0FC766] text-white text-light md:px-8">
+            <button className="flex justify-center  text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[220px] bg-gradient-to-r from-[#20972A] to-[#0FC766]">
               Become a partner
             </button>
           </div>
@@ -77,7 +87,6 @@ const Partnership = () => {
           </p>
         </div>
       </div>
-
       <div className="bottom--text">
         <p className="text-center p-8 w-3/4 mx-auto max-sm:w-full max-sm:text-[15px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt
