@@ -24,76 +24,63 @@ const Partnership = () => {
         </div>
         <div className="absolute top-40 text-center w-[100%]">
           <h1 className="text-[50px] mb-7 text-white font-poppins">
-            Partnerships
+            Corporate Offsetting
           </h1>
-          <button className="font-normal mx-auto text-white px-8 py-2 rounded-full bg-gradient-to-r from-[#20972A] to-[#0CCC6F]">
-            Become a Partner
-          </button>
         </div>
       </div>
       <div className="w-[100%]">
-        <div className="text-center py-44 mx-auto w-2/4 max-sm:w-3/4">
-          <h1 className=" md:text-[38px] mb-8 text-[40px] font-semibol max-sm:text-[36px]">
-            Lorem Ipsum <span className="text-[#0DCB6B]">Dolor sit</span>
-          </h1>
-          <h2 className="text-lg font-thin max-sm:text-[16px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quo
-            officiis eum rem, voluptatum minus. Voluptas aut recusandae ea natus
-            corporis excepturi ipsam.
-          </h2>
-          <div
-            className="flex flex-col md:flex-row justify-center items-center gap-y-6 gap-x-5
-          pt-8"
-          >
-            <button className="flex justify-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[220px] bg-gradient-to-r from-[#40559E] to-[#0FC7BC]">
-              Learn More
-            </button>
-            <button className="flex justify-center  text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[220px] bg-gradient-to-r from-[#20972A] to-[#0FC766]">
-              Become a partner
-            </button>
+        <div className="text-center py-20 mx-auto w-2/4 max-sm:w-3/4">
+          <div className="flex justify-center items-center font-medium ">
+            <h1 className=" text-4xl md:text-5xl text-center">
+              Offsets that are
+              <span className="text-[#0DCB6B] pl-2">transparent and quick</span>
+            </h1>
           </div>
+          <h2 className="text-lg font-normal max-sm:text-[16px] pt-10">
+            You don't have to interact with any blockchain aspect. Simply use
+            our platform to offset your emissions and prove to your customers
+            that your efforts are having a real impact on the environment
+          </h2>
         </div>
       </div>
 
-      <h1 className="py-8 text-center font-light text-4xl tracking-widest max-sm:text-[30px] ">
-        CREDIT ELIGIBILITY
-      </h1>
-      <div className="w-[100%] p-8 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ">
-        <div className="m-5 h-[300px] text-center rounded-2xl shadow-lg lg:p-3">
-          <h1 className="p-8 mt-6 text-[25px] text-[#219325] font-light">
-            Lorem Ipsum
+      <div className="flex justify-center items-center font-medium ">
+        <h1 className=" text-4xl md:text-5xl text-center">Our Credits</h1>
+      </div>
+
+      <div className="w-[100%] p-8 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+          <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
+            Live
           </h1>
           <p className="text-[#4E4B4B] font-normal max-md:text-[13px] max-md:px-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            molestias et quod, doloremque magnam fugiat!
+            No retired credits will be sold to anyone. Once purchased, we retire
+            the credits on your behalf
           </p>
         </div>
-        <div className="m-5 h-[300px] text-center rounded-2xl shadow-lg lg:p-3">
-          <h1 className="p-8 mt-6 text-[25px] text-[#219325] font-light">
-            Lorem Ipsum
+        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+          <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
+            Certified
           </h1>
           <p className="text-[#4E4B4B] font-normal">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            molestias et quod, doloremque magnam fugiat!
+            All credits are certified by one of the four market recognised
+            Carbon Registries
           </p>
         </div>
-        <div className="m-5 h-[300px] text-center rounded-2xl shadow-lg lg:p-3">
-          <h1 className="p-8 mt-6 text-[25px] text-[#219325] font-light">
-            Lorem Ipsum
+        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+          <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
+            Young Vintage
           </h1>
           <p className="text-[#4E4B4B] font-normal">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            molestias et quod, doloremque magnam fugiat!
+            All of our credits will be less than 5 years old
           </p>
         </div>
       </div>
       <div className="bottom--text">
         <p className="text-center p-8 w-3/4 mx-auto max-sm:w-full max-sm:text-[15px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt
-          impedit natus nulla aperiam dolor molestias assumenda voluptate
-          facilis at..Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Molestias quo architecto illo necessitatibus porro velit sint a quas
-          consequuntur quia.
+          block2030 only accepts the highest quality carbon credits, which is
+          why we are the trusted choice of the most responsible and sustainable
+          corporations
         </p>
       </div>
     </div>
