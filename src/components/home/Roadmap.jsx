@@ -1,6 +1,7 @@
 import React from "react";
 import RoadmapCard from "./RoadmapCard";
 import { motion } from "framer-motion";
+import { RoadMapData } from "./Data";
 
 const FromDown = {
   offscreen: { y: 150, opacity: 0 },
@@ -25,25 +26,49 @@ const Roadmap = () => {
         whileInView={"onscreen"}
         transition={{ staggerChildren: 0.2 }}
         viewport={{ once: true, amount: 0.5 }}
-        className="grid place-items-center gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-6"
+        className="grid gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-6"
       >
         <motion.div variants={FromDown}>
-          <RoadmapCard num={1} />
+          <RoadmapCard
+            header={RoadMapData[0].header}
+            text={RoadMapData[0].text}
+            num={1}
+          />
         </motion.div>
         <motion.div variants={FromDown}>
-          <RoadmapCard num={2} />
+          <RoadmapCard
+            header={RoadMapData[1].header}
+            text={RoadMapData[1].text}
+            num={2}
+          />
         </motion.div>
         <motion.div variants={FromDown}>
-          <RoadmapCard num={3} />
+          <RoadmapCard
+            header={RoadMapData[2].header}
+            text={RoadMapData[2].text}
+            num={3}
+          />
         </motion.div>
         <motion.div variants={FromDown}>
-          <RoadmapCard num={4} />
+          <RoadmapCard
+            header={RoadMapData[3].header}
+            text={RoadMapData[3].text}
+            num={4}
+          />
         </motion.div>
         <motion.div variants={FromDown}>
-          <RoadmapCard num={5} />
+          <RoadmapCard
+            header={RoadMapData[4].header}
+            text={RoadMapData[4].text}
+            num={5}
+          />
         </motion.div>
         <motion.div variants={FromDown}>
-          <RoadmapCard num={6} />
+          <RoadmapCard
+            header={RoadMapData[5].header}
+            text={RoadMapData[5].text}
+            num={6}
+          />
         </motion.div>
       </motion.div>
     </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
-
+import Logo from "../../img/Logo.png";
 // import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -14,11 +14,6 @@ const Navbar = () => {
   };
 
   const NavLinks = [
-    {
-      id: 1,
-      text: "Home",
-      url: "/#",
-    },
     {
       id: 2,
       text: "Token",
@@ -46,6 +41,7 @@ const Navbar = () => {
       }
     >
       <div className="container mx-auto flex w-full h-full justify-between items-center px-2 2xl:px-16">
+        <img src={Logo} className="w-[180px] md:w-[240px] xl:-ml-12" alt="" />
         <a
           href="/#"
           className="hidden md:flex items-center justify-center gap-3 -mt-2"
@@ -54,6 +50,13 @@ const Navbar = () => {
         </a>
         <div className="w-full flex items-center justify-between md:justify-end">
           <ul className="hidden md:flex md:gap-x-3 lg:gap-x-12 mt-5">
+            <li>
+              <NavHashLink smooth to="/#">
+                <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">
+                  Home
+                </li>
+              </NavHashLink>
+            </li>
             {NavLinks.map((data) => (
               <NavLink to={data.url} key={data.id}>
                 <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">

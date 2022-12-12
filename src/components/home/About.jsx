@@ -4,26 +4,25 @@ import "../../App.css";
 const About = () => {
   return (
     <div>
-      <div className="w-full text-center pt-10 px-6">
+      <div className="md:hidden w-full text-center pt-10 px-6">
         <h3 className="text-2xl">Introducing block2030</h3>
         <p className="pt-4 text-lg">
-          Decentrally we provide carbon credit for your company
+          Ublocking the potential of the carbon market
         </p>
       </div>
-      <div className="container pt-10 xl:pt-[20px] pb-10 xl:pb-[100px] grid gap-6 md:grid-cols-2 place-items-center">
+      <div className="container pt-10 md:mt-4 xl:pt-[20px] pb-10 xl:pb-[100px] grid gap-6 md:grid-cols-2 place-items-center">
         <div className="treeBG">
-          <img className="w-[300px] md:w-[350px]" src={Tree} alt="" />
+          <img className="w-[300px] md:w-[500px]" src={Tree} alt="" />
         </div>
         <div>
           <h2>
-            Lorem ipsum dolor sit, amet{" "}
-            <span className="p-text">consectetur</span> adipisicing elit.
+            Overcoming barriers so everyone can participate in the carbon market
           </h2>
           <br />
           <p>
-            Lorem ipsum dolor sit amet adipisicing elit. Cum laboriosam ab ut
-            deserunt fuga dolorem sequi reprehenderit incidunt non eius, est,
-            recusandae eaque quis nisi amet ex! Architecto, dolore explicabo.
+            Effortlessly offset your company's carbon emissions with our
+            innovative tokenization system. Built on blockchain technology for
+            maximum transparency and security.
           </p>
           <br />
           <br />

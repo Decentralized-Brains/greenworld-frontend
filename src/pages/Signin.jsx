@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import TREE from "../img/others/tree.png";
 import { FcGoogle } from "react-icons/fc";
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
@@ -6,11 +7,18 @@ import { Link } from "react-router-dom";
 
 const Signin = () => {
   const [open, setOpen] = useState(false);
+  // bring to top
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   //handle toggle
   const toggle = () => {
     setOpen(!open);
   };
+
   return (
     <div className="relative flex min-h-screen flex-col justify-center overflow-hidden py-6 sm:py-12">
       <div className="relative bg-[#effbff] px-6 pt-10 pb-8 shadow-lg ring-1 ring-gray-900/5 sm:mx-auto md:max-w-6xl sm:rounded-lg sm:px-10 mt-16">

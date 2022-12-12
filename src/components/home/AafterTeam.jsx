@@ -6,22 +6,23 @@ const AafterTeam = () => {
     <div className="container xl:pb-10 grid md:grid-cols-2 gap-6 place-items-center">
       <div>
         <h2>
-          Lorem ipsum <span className="p-text">dolor</span> sit amet
-          consectetur.
+          We bring <span className="p-text">carbon</span> credits on chain
         </h2>
         <br />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          eius ducimus consectetur similique eum harum assumenda nihil soluta
-          numquam ea? Necessitatibus eum sequi, id nobis natus incidunt neque
-          repellat quidem?
+          Our CO2 token is used to offset your emissions. The block token will
+          be used to invest in the voluntary carbon credit market.
         </p>
         <br />
         <Link to="token">
           <button>Token</button>
         </Link>
       </div>
-      <img className="max-w-[300px]" src={World} alt="" />
+      <img
+        className="max-w-[300px] md:max-w-[400px] xl:max-w-[700px]"
+        src={World}
+        alt=""
+      />
     </div>
   );
 };

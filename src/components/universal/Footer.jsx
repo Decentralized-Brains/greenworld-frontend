@@ -1,5 +1,5 @@
 import React from "react";
-
+import LogoWhite from "../../img/LogoWhite.png";
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 export default function Footer() {
@@ -12,14 +12,13 @@ export default function Footer() {
             <div>
               {" "}
               <a href="/">
-                <h2 className="text-gray-100">Logo</h2>
+                <img src={LogoWhite} alt="" className="w-[200px]" />
               </a>
             </div>
 
             <div className="max-w-md mt-4 text-gray-300 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+              One-stop solution to offset carbon emissions and invest in the
+              Voluntary Carbon Market Join the net-zero club
             </div>
           </div>
 

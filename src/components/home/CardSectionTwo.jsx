@@ -6,7 +6,7 @@ const CardSectionTwo = () => {
     <div className="bg-[#effbff] mb-[-80px]" id="blog">
       <div className="container text-center py-12">
         <h3 className="text-3xl">
-          Ipsum <span className="p-text">Partners</span> dolor sit amet.
+          <span className="p-text">Blog</span> Section
         </h3>
         <div>
           <div className="grid md:grid-cols-3 pt-10 gap-6 px-4">

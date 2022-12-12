@@ -33,20 +33,20 @@ export const Card1Data = [
   {
     id: 1,
     img: C1,
-    title: "Lorem Ipsum",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsumvero saepe facere, doloribus odit animi consectetur architecto explicabo aspernatur ullam. Vero ipsum provident non facilis fuga itaque, fugiat illo.",
+    title: "Transparency",
+    desc: "All transactions will be transparently verified on the blockchain for all to view. The transaction hash will serve as proof that your business has offset its carbon emissions by purchasing CO2 tokens. You will also receive the appropriate off-chain credits registered in your business's name.",
   },
   {
     id: 2,
     img: C2,
-    title: "Lorem Ipsum 2",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsumvero saepe facere, doloribus odit animi consectetur architecto explicabo aspernatur ullam. Vero ipsum provident non facilis fuga itaque, fugiat illo.",
+    title: "No Blockchain Interaction",
+    desc: "Offset your company's carbon emissions without worrying about blockchain technology. Our platform handles it all, ensuring transparency and security.",
   },
   {
     id: 3,
     img: C3,
-    title: "Lorem Ipsum 3",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsumvero saepe facere, doloribus odit animi consectetur architecto explicabo aspernatur ullam. Vero ipsum provident non facilis fuga itaque, fugiat illo.",
+    title: "Official Credits Transferred ",
+    desc: "Our token is backed by third-party verified, high-quality carbon credits. When your business offsets its emissions, the corresponding off-chain credits will be retired in your business's name and you will receive confirmation in the form of an NFT or PDF.",
   },
 ];
 
@@ -103,5 +103,32 @@ export const TeamsData = [
     title: "Content Writer",
     twitter: "",
     linkdin: "",
+  },
+];
+
+export const RoadMapData = [
+  {
+    header: "Q3 2022",
+    text: "Product Development Carbon Credit Partnerships Team Hiring",
+  },
+  {
+    header: "Q4 2022",
+    text: "Block2030 Testnet Community Building Web2 Integration",
+  },
+  {
+    header: "Q1 2023",
+    text: "Block2030 Mainnet Corporate Partnerships Private Sale",
+  },
+  {
+    header: "Q2 2023",
+    text: "CEX Listing Onboarding Climate Projects ESG Support Service",
+  },
+  {
+    header: "Q3 2023",
+    text: "Forward Carbon Credit Partnerships Onboarding Mandatory Carbon Credit Partners Integrating GHG Emissions Accounting Software",
+  },
+  {
+    header: "Q4 2023",
+    text: "One-stop Offsetting Solution Direct Partnerships with Carbon Credit Suppliers Transparency in the Carbon Credit Market",
   },
 ];

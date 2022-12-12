@@ -10,20 +10,16 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-6 place-items-center md:min-h-screen">
           <div>
             <h1
-              className="text-4xl text-center md:text-left mb-5 md:text-6xl md:mb-10
+              className="text-3xl text-center md:text-left mb-5 md:text-5xl md:mb-10
             "
             >
-              Lorem ipsum dolor sit amet{" "}
-              <span className="p-text">consectetur</span> adipisicing.
+              One-stop <span className="p-text">solution</span> to offset carbon
+              emissions and invest in the Voluntary Carbon Market Join the
+              net-zero club
             </h1>
-            <p className="text-center md:text-left ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae id molestias quasi, temporibus aperiam perferendis quae
-              deserunt quia tempore consectetur!
-            </p>
           </div>
           <div className="hidden md:block">
-            <img src={Tree} className="w-[200px] md:w-full scale-125" alt="" />
+            <img src={Tree} className="w-[200px] md:w-full scale-150" alt="" />
           </div>
         </div>
       </div>
