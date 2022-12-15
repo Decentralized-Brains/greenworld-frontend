@@ -48,12 +48,10 @@ const Token = () => {
               </p>
             </div>
             <div className="flex flex-col gap-y-6 pt-8">
-              <button className="flex justify-center  text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#20972A] to-[#0FC766]">
+              <button className="flex justify-center bg-gradient-to-r from-green-500 to-blue-600">
                 Whitepaper
               </button>
-              <button className="flex justify-center text-white text-base md:text-xl font-normal rounded-3xl py-2 w-[180px] bg-gradient-to-r from-[#40559E] to-[#0FC7BC]">
-                FAQ
-              </button>
+              <button className="flex justify-center">FAQ</button>
             </div>
           </div>
 
@@ -141,24 +139,24 @@ const Token = () => {
           <div className="flex flex-col gap-y-4 mt-14 md:mt-0">
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[10rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200 hover:shadow-lg"
+              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200 hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 High Demand
               </p>
-              <p className="font-normal pt-6 text-base ">
+              <p className="font-normal pt-6 text-base text-center">
                 Demand is set to grow 15x by 2030 (McKinsey)
               </p>
             </h1>
 
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[10rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Net zero commitments
               </p>
-              <p className="font-normal  pt-6 text-base">
+              <p className="font-normal  pt-6 text-base text-center">
                 Over 2,000 companies announce net-zero ambitions
               </p>
             </h1>
@@ -167,24 +165,24 @@ const Token = () => {
           <div className="flex flex-col gap-y-4">
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[10rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Huge market
               </p>
-              <p className="font-normal  pt-6 text-base">
+              <p className="font-normal  pt-6 text-base text-center">
                 Corporate market is expected to grow to $30B in 2030
               </p>
             </h1>
 
             <h1
               href="#"
-              className="p-6  max-w-[24rem] h-[10rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className="p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Low Supply
               </p>
-              <p className="font-normal pt-6 text-base">
+              <p className="font-normal pt-6 text-base text-center">
                 Credits take a long time to be issued
               </p>
             </h1>

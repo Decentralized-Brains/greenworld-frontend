@@ -48,17 +48,17 @@ const Partnership = () => {
         <h1 className=" text-4xl md:text-5xl text-center">Our Credits</h1>
       </div>
 
-      <div className="w-[100%] p-8 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+      <div className="w-[100%] p-2 grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+        <div className="m-5 h-[250px] p-1 text-center rounded-2xl shadow-lg lg:p-3">
           <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
             Live
           </h1>
-          <p className="text-[#4E4B4B] font-normal max-md:text-[13px] max-md:px-2">
+          <p className="text-[#4E4B4B] font-normal">
             No retired credits will be sold to anyone. Once purchased, we retire
             the credits on your behalf
           </p>
         </div>
-        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+        <div className="m-5 h-[250px] p-1 text-center rounded-2xl shadow-lg lg:p-3">
           <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
             Certified
           </h1>
@@ -67,7 +67,7 @@ const Partnership = () => {
             Carbon Registries
           </p>
         </div>
-        <div className="m-5 h-[250px] text-center rounded-2xl shadow-lg lg:p-3">
+        <div className="m-5 h-[250px] p-1 text-center rounded-2xl shadow-lg lg:p-3">
           <h1 className="p-8 mt-6 text-[30px] text-[#219325] font-bold">
             Young Vintage
           </h1>
