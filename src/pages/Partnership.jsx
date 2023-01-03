@@ -2,6 +2,7 @@ import "./token.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import BG from "../img/others/tree-bg.png";
+import img from "../img/others/image1.png";
 
 const Partnership = () => {
   // bring to top
@@ -23,24 +24,25 @@ const Partnership = () => {
           />{" "}
         </div>
         <div className="absolute top-40 text-center w-[100%]">
-          <h1 className="text-[50px] mb-7 text-white font-poppins">
+          <h1 className="text-[50px] text-white font-poppins leading-none">
             Corporate Offsetting
           </h1>
         </div>
       </div>
       <div className="w-[100%]">
-        <div className="text-center py-20 mx-auto w-2/4 max-sm:w-3/4">
+        <div className="text-center pt-20 mx-auto w-3/4 md:w-2/4 max-sm:w-full">
           <div className="flex justify-center items-center font-medium ">
             <h1 className=" text-4xl md:text-5xl text-center">
-              Offsets that are
-              <span className="text-[#0DCB6B] pl-2">transparent and quick</span>
+              Offsetting made
+              <span className="text-[#0DCB6B]"> easy</span>
             </h1>
           </div>
-          <h2 className="text-lg font-normal max-sm:text-[16px] pt-10">
-            You don't have to interact with any blockchain aspect. Simply use
-            our platform to offset your emissions and prove to your customers
-            that your efforts are having a real impact on the environment
+          <h2 className="text-lg font-normal max-sm:text-[16px] pt-10 px-2">
+            Simply use our one-stop platform to offset your emissions and prove
+            to your customers that your efforts are having a real impact on the
+            environment.
           </h2>
+          <img src={img} alt="" className="object-cover" />
         </div>
       </div>
 
@@ -75,13 +77,6 @@ const Partnership = () => {
             All of our credits will be less than 5 years old
           </p>
         </div>
-      </div>
-      <div className="bottom--text">
-        <p className="text-center p-8 w-3/4 mx-auto max-sm:w-full max-sm:text-[15px]">
-          block2030 only accepts the highest quality carbon credits, which is
-          why we are the trusted choice of the most responsible and sustainable
-          corporations
-        </p>
       </div>
     </div>
   );

@@ -29,17 +29,21 @@ const Token = () => {
           </div>
 
           <div className="flex flex-col min-h-[460px] justify-center items-center gap-y-6 md:gap-y-10">
-            <h1 className="text-[50px] mb-7 text-white font-poppins">Token</h1>
+            <h1 className="text-[50px] mb-7 text-white font-poppins">
+              Two Tokens
+            </h1>
           </div>
         </div>{" "}
       </section>
-      <section id="about" className="mx-3 md:mx-0">
+      <section id="about" className="container">
         <div className="flex flex-col md:flex-row md:justify-around gap-4 pt-10">
           <div className="mx-4 sm:mt-0 flex flex-col md:items-start justify-center items-center">
-            {/* <div className="flex flex-col md:justify-start md:items-start justify-center items-center text-4xl md:text-6xl gap-y-4 mt-0 md:mt-10">
-              <span className="font-medium">Lorem Ipsum</span>
-              <span className="font-medium text-[#0DCB6B]">Dolor Sit</span>
-            </div> */}
+            <div className="font-medium flex flex-col md:justify-start md:items-start justify-center items-center text-4xl md:text-5xl gap-y-4 mt-0 md:mt-10">
+              <h1>
+                Offset and
+                <span className="text-[#0DCB6B]"> Invest</span>
+              </h1>
+            </div>
             <div className="max-w-[300px] pt-8 text-xl font-normal">
               <p>
                 Our innovative two-token structure makes offsetting and
@@ -49,54 +53,43 @@ const Token = () => {
             </div>
             <div className="flex flex-col gap-y-6 pt-8">
               <button className="flex justify-center bg-gradient-to-r from-green-500 to-blue-600">
-                Whitepaper
+                Litepaper
               </button>
               <button className="flex justify-center">FAQ</button>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-2 pt-10 md:pt-0">
-            <div className="grid  w-full place-content-center">
-              <div
-                className="flex h-[300px] md:h-[400px] min-w-[300px] md:min-w-[150px] md:max-w-[200px] 
-                flex-col justify-evenly  rounded-xl md:rounded-full m-2 p-4 shadow-lg 
-                items-center border-[1px] "
-              >
-                <img
-                  src={roundimg1}
-                  alt="..."
-                  className="w-[200px] align-middle border-none"
-                />
-
-                <p className="text-center text-base mb-6">
-                  The Block token allows investors to gain exposure to the
-                  voluntary carbon credit market. This is the first time
-                  investors can easily access this market, making the Block
-                  token valuable and innovative.
-                </p>
-              </div>
+          <div className="min-w-[300px] flex flex-col mx-auto gap-4 justify-center mt-16 md:mt-0">
+            <div className="md:max-w-2xl border h-72 md:h-52 lg:h-40 rounded-3xl flex flex-col md:flex-row  justify-center items-center p-4 text-justify hover:-translate-y-2 duration-300 shadow-lg">
+              <img
+                src={roundimg3}
+                alt="..."
+                className="object-cover h-5/6 w-[130px] border-none "
+              />
+              <p classname="flex justufy-center">
+                The Block token allows investors to gain exposure to the
+                voluntary carbon credit market. This is the first time investors
+                can easily access this market, making the Block token valuable
+                and innovative.
+                <span className="font-bold">
+                  {" "}
+                  We plan to launch the block token later this year
+                </span>
+              </p>
             </div>
 
-            <div className="grid  w-full place-content-center">
-              <div
-                className="flex h-[300px] md:h-[450px] min-w-[300px] md:min-w-[150px] md:max-w-[200px] 
-                flex-col justify-evenly  rounded-xl md:rounded-full  m-2 p-4 shadow-lg 
-                items-center border-[1px] "
-              >
-                <img
-                  src={roundimg3}
-                  alt="..."
-                  className=" w-[200px] align-middle border-none"
-                />
-
-                <p className="text-center text-base mb-6">
-                  The CO2 token is a digital asset backed by carbon credits. It
-                  allows businesses to of offset their emissions in a
-                  transparent and accessible way. When the token is bought, it
-                  is burned and the underlying carbon credits are transferred to
-                  the purchaser.
-                </p>
-              </div>
+            <div className="md:max-w-2xl border h-72 md:h-52 lg:h-40 rounded-3xl flex flex-col md:flex-row  justify-center items-center p-4 text-justify hover:-translate-y-2 duration-300 shadow-lg">
+              <img
+                src={roundimg1}
+                alt="..."
+                className="object-cover h-5/6 w-[130px] border-none "
+              />
+              <p classname="flex justufy-center">
+                The CO2 token is a digital asset backed by carbon credits. It
+                allows businesses to of offset their emissions in a transparent
+                and accessible way. When the token is bought, it is burned and
+                the underlying carbon credits are transferred to the purchaser.
+              </p>
             </div>
           </div>
         </div>
@@ -104,11 +97,11 @@ const Token = () => {
 
       <section id="middle" className="my-20 h-full max-w-[1200px] mx-auto">
         <hr className="max-w-[1200px] mx-auto" />
-        <div className="flex flex-col md:flex-row justify-evenly items-center gap-y-5 md:gap-y-0 py-16 md:py-24">
+        <div className="flex flex-col-reverse md:flex-row justify-evenly items-center gap-y-5 md:gap-y-0 py-16 md:py-24">
           <div className="max-w-[300px] md:max-w-[400px] text-xl font-normal flex border border-gray-200 shadow-md rounded-2xl">
             <p className="m-6">
               With every offset, a fee will go into the block token giving
-              individuals exposure to the growing market through the block token
+              individuals exposure to the growing voluntary carbon credit market
             </p>
           </div>
           <img src={midimg} alt="" className="max-w-[300px] md:max-w-[500px]" />
@@ -119,44 +112,49 @@ const Token = () => {
       <section id="last" className="mx-3 md:mx-0 my-10">
         <div className="flex justify-center items-center font-medium ">
           <h1 className=" text-4xl md:text-5xl text-center">
-            The Market Is
-            <span className="text-[#0DCB6B] pl-2">Growing Quickly</span>
+            The market is
+            <span className="text-[#0DCB6B] pl-2">growing quickly</span>
           </h1>
         </div>
         <div className="flex justify-center text-xl font-normal pt-8">
           <p className="max-w-[1000px] text-center">
             More and more companies offset their emissions through voluntary
-            varbon credits
+            carbon credits
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-2 pt-16 place-items-center">
+        <div className="container grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-6 pt-16 place-items-center">
           <div>
-            <div className="">
-              <img src={COIN} alt="" srcSet="" />
+            <div>
+              <img
+                src={COIN}
+                alt=""
+                srcSet=""
+                className="object-cover w-[300px] md:w-full md:h-[300px]"
+              />
             </div>
           </div>
-          <div className="flex flex-col gap-y-4 mt-14 md:mt-0">
+          <div className="flex flex-col gap-y-4 mt-6 md:mt-0">
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200 hover:shadow-lg"
+              className=" p-2 lg:p-4  max-w-[24rem] h-40 bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200 hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 High Demand
               </p>
-              <p className="font-normal pt-6 text-base text-center">
+              <p className="font-normal pt-5 text-base text-center">
                 Demand is set to grow 15x by 2030 (McKinsey)
               </p>
             </h1>
 
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className=" p-2 lg:p-4  max-w-[24rem] h-40 bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Net zero commitments
               </p>
-              <p className="font-normal  pt-6 text-base text-center">
+              <p className="font-normal  pt-5 text-base text-center">
                 Over 2,000 companies announce net-zero ambitions
               </p>
             </h1>
@@ -165,24 +163,24 @@ const Token = () => {
           <div className="flex flex-col gap-y-4">
             <h1
               href="#"
-              className=" p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className=" p-2 lg:p-4  max-w-[24rem] h-40 bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Huge market
               </p>
-              <p className="font-normal  pt-6 text-base text-center">
+              <p className="font-normal  pt-5 text-base text-center">
                 Corporate market is expected to grow to $30B in 2030
               </p>
             </h1>
 
             <h1
               href="#"
-              className="p-6  max-w-[24rem] h-[12rem] bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
+              className="p-2 lg:p-4  max-w-[24rem] h-40 bg-white rounded-2xl border border-gray-200 shadow-md  dark:shadow-gray-200  hover:shadow-lg"
             >
               <p className="mb-2 text-3xl font-medium text-[#219325] tracking-tigh text-center">
                 Low Supply
               </p>
-              <p className="font-normal pt-6 text-base text-center">
+              <p className="font-normal pt-5 text-base text-center">
                 Credits take a long time to be issued
               </p>
             </h1>
