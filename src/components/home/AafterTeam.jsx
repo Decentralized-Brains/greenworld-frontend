@@ -19,7 +19,7 @@ const AafterTeam = () => {
         </Link>
       </div>
       <img
-        className="max-w-[300px] md:max-w-[400px] xl:max-w-[700px]"
+        className="max-w-[300px] hidden md:block md:max-w-[400px] xl:max-w-[700px]"
         src={World}
         alt=""
       />

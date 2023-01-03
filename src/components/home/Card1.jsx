@@ -7,7 +7,7 @@ const Card1 = ({ data }) => {
       <img
         src={img}
         alt=""
-        className="w-[210px] bg-[#b6e2ff] xl:-mt-10 rounded-xl mb-4"
+        className="w-[210px] pt-3 xl:-mt-10 rounded-xl mb-4"
       />
       <h3 className="mb-2">{title}</h3>
       <p>{desc}</p>

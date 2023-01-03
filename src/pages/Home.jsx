@@ -24,7 +24,7 @@ const Home = () => {
       <AafterTeam />
       <CardOneSection />
       <Roadmap />
-      <Teams />
+      {/* <Teams /> */}
       <CardSectionTwo />
     </div>
   );
