@@ -109,26 +109,39 @@ export const TeamsData = [
 export const RoadMapData = [
   {
     header: "Q3 2022",
-    text: ["Product Development ","Carbon Credit Partnerships"," Team Hiring"]
+    text: [
+      "Product Development ",
+      "Carbon Credit Partnerships",
+      " Team Hiring",
+    ],
   },
   {
     header: "Q4 2022",
-    text: ["Block2030 Testnet Community Building Web2 Integration"],
+    text: ["Block2030 Testnet Community", "Building Web2 Integration"],
   },
   {
     header: "Q1 2023",
-    text: ["Block2030 Mainnet Corporate Partnerships Private Sale"],
+    text: ["Block2030 Mainnet Corporate", "Partnerships Private Sale"],
   },
   {
     header: "Q2 2023",
-    text: ["CEX Listing Onboarding Climate Projects ESG Support Service"],
+    text: ["CEX Listing Onboarding", "Climate Projects", "ESG Support Service"],
   },
   {
     header: "Q3 2023",
-    text: ["Forward Carbon Credit Partnerships Onboarding Mandatory Carbon Credit Partners Integrating GHG Emissions Accounting Software"],
+    text: [
+      "Forward Carbon Credit Partnerships",
+      "Onboarding Mandatory Carbon Credit",
+      "Partners Integrating GHG",
+      "Emissions Accounting Software",
+    ],
   },
   {
     header: "Q4 2023",
-    text: ["One-stop Offsetting Solution Direct Partnerships with Carbon Credit Suppliers Transparency in the Carbon Credit Market"],
+    text: [
+      "One-stop Offsetting",
+      "Solution Direct Partnerships with Carbon Credit",
+      "Suppliers Transparency in the Carbon Credit Market",
+    ],
   },
 ];
