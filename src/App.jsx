@@ -7,9 +7,9 @@ import Partnership from "./pages/Partnership";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import ForgetPassword from "./pages/ForgetPassword";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Token from "./pages/Token";
+import Transaction from "./pages/Transaction";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
+          <Route path="/transaction" element={<Transaction />} />
         </Routes>
         <div className="h-[80px]"></div>
         <Footer />
