@@ -17,8 +17,8 @@ const Transaction = () => {
         </p>
       </div>
       <div className="flex justify-center mt-16">
-        <table className="w-[1000px] rounded-lg overflow-hidden">
-          <thead className="bg-[#F5F5F5] ">
+        <table className="w-[1000px] rounded-lg overflow-hidden ">
+          <thead className="bg-[#F5F5F5]">
             <tr className="">
               <th
                 scope="col"
@@ -47,31 +47,45 @@ const Transaction = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-              <td className="px-2 md:px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+            <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-[#EEE3FF]">
+              <td className="px-2 md:px-6 py-4 whitespace-nowrap text-base font-medium text-gray-900">
                 1
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 Sopify
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 27th June 2023
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 Active
               </td>
             </tr>
-            <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
-              <td className="px-2 md:px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+            <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-[#EEE3FF]">
+              <td className="px-2 md:px-6 py-4 whitespace-nowrap text-base font-medium ">
                 2
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 Netflix
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 12th July 2023
               </td>
-              <td className="text-sm text-gray-900 font-light px-2 md:px-6 py-4 whitespace-nowrap">
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
+                Active
+              </td>
+            </tr>
+            <tr className="bg-white border-b transition duration-300 ease-in-out hover:bg-[#EEE3FF]">
+              <td className="px-2 md:px-6 py-4 whitespace-nowrap text-base font-medium ">
+                3
+              </td>
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
+                Netflix
+              </td>
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
+                12th July 2023
+              </td>
+              <td className="text-base text-gray-900 font-normal px-2 md:px-6 py-4 whitespace-nowrap">
                 Active
               </td>
             </tr>
