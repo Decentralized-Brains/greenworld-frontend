@@ -9,7 +9,11 @@ const RoadmapCard = ({ header, text, num }) => {
         <h3 className="text-xl mb-3 bg-green-500/20 p-2 rounded-full">
           {header}
         </h3>
-        <p className="mb-3">{text}</p>
+        <ul className="list-disc text-left ml-3">
+          {text.map((val, index) => (
+            <li key={index}>{val}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );

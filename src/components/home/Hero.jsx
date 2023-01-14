@@ -14,8 +14,11 @@ const Hero = () => {
             "
             >
               One-stop <span className="p-text">solution</span> to offset carbon
-              emissions and invest in the Voluntary Carbon Market Join the
-              net-zero club
+              emissions and invest in the Voluntary Carbon Market <br />{" "}
+              <span className="text-xl md:text-3xl pt-4">
+                {" "}
+                Join the net-zero club
+              </span>
             </h1>
           </div>
           <div className="hidden md:block">

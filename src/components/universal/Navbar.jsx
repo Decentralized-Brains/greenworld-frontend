@@ -4,10 +4,12 @@ import { Link, NavLink } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import Logo from "../../img/Logo.png";
 // import { HashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const { pathname } = useLocation();
 
   const handleNav = () => {
     setNav(!nav);
@@ -21,10 +23,19 @@ const Navbar = () => {
     },
     {
       id: 3,
-      text: "Partner",
+      text: "Corporate Offsetting",
       url: "/partner",
     },
+    {
+      id: 4,
+      text: "About us",
+      url: "/about",
+    },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -41,13 +52,12 @@ const Navbar = () => {
       }
     >
       <div className="container mx-auto flex w-full h-full justify-between items-center px-2 2xl:px-16">
-        <img src={Logo} className="w-[180px] md:w-[240px] xl:-ml-12" alt="" />
-        <a
-          href="/#"
+        <Link
+          to="/"
           className="hidden md:flex items-center justify-center gap-3 -mt-2"
         >
-          {/* <img src={logo} className="w-[150px] " alt="" /> */}
-        </a>
+          <img src={Logo} className="w-[180px] md:w-[300px] xl:-ml-12" alt="" />
+        </Link>
         <div className="w-full flex items-center justify-between md:justify-end">
           <ul className="hidden md:flex md:gap-x-3 lg:gap-x-12 mt-5">
             <li>
@@ -71,20 +81,20 @@ const Navbar = () => {
                 </li>
               </NavHashLink>
             </li>
-            <li>
+            {/* <li>
               <NavHashLink smooth to="/#team">
                 <li className="c-link ml-0 mb-6 w-fit hover:border-b border-gray-700 hover:text-green-600 duration-300">
                   Team
                 </li>
               </NavHashLink>
-            </li>
+            </li> */}
           </ul>
           <Link to="/signin">
             <button className="mr-4 md:mr-0 md:ml-12">Offset</button>
           </Link>
           <div
             onClick={handleNav}
-            className="md:hidden text-black dark:text-white cursor-pointer"
+            className="md:hidden text-black cursor-pointer"
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -106,13 +116,12 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <a
-                href="/#"
+              <Link
+                to="/"
                 className="flex items-center justify-center gap-3 -mt-2"
               >
-                {/* <img src={logo} className="w-[45px] " alt="" /> */}
-                <span className="font-bold text-2xl">Logo</span>
-              </a>
+                <img src={Logo} className="w-[150px]" alt="" />
+              </Link>
               <div onClick={handleNav} className="cursor-pointer">
                 <AiOutlineClose />
               </div>
@@ -135,12 +144,12 @@ const Navbar = () => {
                   Blog
                 </NavHashLink>
               </li>
-
+              {/* 
               <li className="c-link ml-0 mb-6 w-fit text-gray-700 hover:border-b hover:text-cyan-500 duration-300">
                 <NavHashLink smooth to="/#team">
                   Team
                 </NavHashLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
